@@ -6,6 +6,7 @@ Package.describe({
 
 Package.onUse(function(api){
   api.versionsFrom('1.2');
+  api.use('ecmascript', 'client');
   api.use('mquandalle:bower@1.5.2_1', 'client');
   api.addFiles([
     'bower.json',
